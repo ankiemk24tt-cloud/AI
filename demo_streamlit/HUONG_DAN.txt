@@ -1,0 +1,11 @@
+Chạy demo:
+  pip install -r requirements.txt
+  streamlit run app.py
+
+Tính năng "Tìm diễn viên" tra cứu qua Wikidata miễn phí và không cần API key.
+Cần kết nối internet; dữ liệu phim/diễn viên trên Wikidata có thể không đầy đủ.
+Tính năng "Tìm phim" tìm tên hoặc thể loại trong dữ liệu MovieLens 100K cục bộ
+và không cần khóa API. Có thể chọn nhiều thể loại; phim kết quả phải thuộc tất cả
+các thể loại được chọn. Cũng có thể tìm theo tên phim đồng thời lọc theo thể loại.
+
+Nếu không cài được scikit-surprise trên máy, chạy demo trong Colab (ô 3.8) hoặc quay sẵn video.
